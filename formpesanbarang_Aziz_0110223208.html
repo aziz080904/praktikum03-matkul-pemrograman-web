@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pemesanan Handphone</title>
+</head>
+<body style="margin: 30px 30px 30px 30px; background-color:  rgb(187, 187, 187);">
+    <div  style="border: 2px #006400 ridge; padding: 1px; background-color: gray; text-align: left;">
+        <p align="center" >Home &emsp;&emsp;&emsp;<b>|</b>&emsp;&emsp;&emsp;Generate Link &emsp;&emsp;&emsp;<b>|</b>&emsp;&emsp;&emsp; Transaction History &emsp;&emsp;&emsp;<b>|</b>&emsp;&emsp;&emsp; Policy &emsp;&emsp;&emsp;<b>|</b>&emsp;&emsp;&emsp; <a style="color: black;" href="-">Logout</a> </p>
+    </div>
+    <br>
+    <div>
+        <img src="assets/s23-ultra.jpg" alt="s23" width="250px" height="250px" style="float: left; margin-right: 60px; margin-bottom: 10px;">
+    </div>
+    <div>
+        <table border="0">
+            <tr>
+                <td>Title Here :</td>
+                <td><form style="margin-left: 100px;" action="" method="post"><input type="text" name="title" style="width: 10cm;" placeholder="Samsung Galaxy S23 Ultra"></form></td>
+            </tr>
+            <tr>
+                <td>Description :</td>
+                <td><form style="margin-left: 100px;" action="" method="post"><input type="text" name="title" style="width: 10cm; height: 3cm;" placeholder="Input the phone model, year, and condition"></form></td>
+            </tr>
+            <tr>
+                <td>Account Number :</td>
+                <td><form style="margin-left: 100px;" action="" method="post"><input type="text" name="title" style="width: 10cm;"></form></td>
+            </tr>
+            <tr>
+                <td>Bank :</td>
+                <td><form style="margin-left: 100px;" action=""><input style="width: 10cm;" type="text" list="bank" name="selbank"> <datalist id="bank"><option value="BRI"></option><option value="BNI"></option><option value="BCA"></option><option value="HSBC"></option><option value="Mandiri"></option><option value="CIMB Niaga"></option>
+                </datalist> </form></td>
+            </tr>
+            <tr>
+                <td>Account Holder :</td>
+                <td><form style="margin-left: 100px;" action="" method="post"><input type="text" name="title" style="width: 10cm;" placeholder="Name Here"></form></td>
+            </tr>
+            <tr>
+                <td>Transaction :</td>
+                <td><form style="margin-left: 100px;" action=""><input style="width: 10cm;" type="number" min="1" max="5" placeholder="*if the transaction for 3 person, choose 3 from the list"></form></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td><form action="" style="margin-left: 100px;"><input type="checkbox" name="mp"><label for="mp">Send to Mobile Phone</label><br><input type="checkbox" name="email"><label for="email">Send to Email</label></form></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Send to Mobile Phone :</td>
+                <td><form action="" style="margin-left: 100px;"><input type="number" name="title" style="width: 10cm;" placeholder="type your phone number"></form></td>
+            </tr>
+            <tr>
+                <td>Send to Email :</td>
+                <td><form action="" style="margin-left: 100px;"><input type="email" name="title" style="width: 10cm;" placeholder="type your email"></form></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+<br><br><br>
+<footer>
+      <div>
+        <form align="center" action="" method="post"><input style="background-color: green; -webkit-text-fill-color: white;" type="submit" value="Generate Nabr Link"></form>
+    </div>
+</footer>
+</html>
